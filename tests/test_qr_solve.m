@@ -6,3 +6,4 @@ res = norm(A*x-b);
 fprintf('QR_solve residual: %.3e\n', res);
 % Use assert so that criteria of passing are tested automatically!
 assert(res < EPS)
+%
